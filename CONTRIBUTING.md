@@ -1,17 +1,17 @@
 # Contributing to JARVIS
 
-Thanks for taking the time to improve JARVIS.
+We welcome high-quality improvements to JARVIS, but contributions must be disciplined, focused, and maintainable.
 
-## Ways to contribute
+## Contribution standards
 
-You can contribute by:
+Do not open pull requests for:
 
-- fixing bugs
-- improving documentation
-- adding features or examples
-- improving tests and reliability
+- vague or speculative changes
+- unrelated cleanup mixed into a feature fix
+- untested changes with no validation notes
+- documentation-only changes that ignore project accuracy
 
-## Development workflow
+## Required workflow
 
 1. Fork the repository.
 2. Clone your fork locally:
@@ -21,49 +21,49 @@ git clone https://github.com/YOUR-GITHUB-USERNAME/JARVIS.git
 cd JARVIS
 ```
 
-3. Create a feature branch:
+3. Create a dedicated branch for the work:
 
 ```bash
 git checkout -b feature/your-change
 ```
 
-4. Make your changes.
-5. Validate your work locally when possible.
-6. Stage the changes:
+4. Make the smallest possible change that solves the problem.
+5. Validate the change locally whenever possible.
+6. Stage the update:
 
 ```bash
 git add .
 ```
 
-7. Commit with a clear message:
+7. Commit with a clear, specific message:
 
 ```bash
-git commit -m "Describe your change"
+git commit -m "Describe the actual fix or feature"
 ```
 
-8. Push the branch to your fork:
+8. Push the branch:
 
 ```bash
 git push origin feature/your-change
 ```
 
 9. Open a pull request against the main repository.
-10. Address review feedback and update the PR as needed.
+10. Respond to review feedback and update the PR until the change is ready.
 
 ## Pull request checklist
 
-Before submitting a PR, please make sure:
+Before submitting a PR, ensure all of the following are true:
 
-- the change is focused and scoped
-- the code is readable and well-commented where needed
-- docs are updated if behavior or setup changed
-- tests or validation steps are included when relevant
-- commit messages are clear and specific
+- the change is scoped and relevant
+- the code is readable and maintainable
+- tests or validation steps are included where appropriate
+- documentation is updated if behavior or setup changes
+- commit history is clean and meaningful
 
 ## Code of conduct
 
-Please be respectful and constructive when discussing ideas, bugs, or proposed changes.
+Be respectful, professional, and constructive. Disruptive, hostile, or low-effort contributions are not acceptable.
 
-## Thank you
+## Final note
 
-Contributions help improve the project for everyone. We appreciate your time and effort.
+Good contributions improve the project. Low-quality or careless submissions will not be accepted.

@@ -1,25 +1,27 @@
 # Support
 
-If you need help with JARVIS, please use the project resources below.
+Support is available only through the channels described here. This project does not provide ad hoc support outside the repository.
 
 ## How to get help
 
-- For bugs, feature requests, or usage questions, open a GitHub issue in this repository.
-- Before creating a new issue, search the existing issues to avoid duplicates.
-- Include as much detail as possible, such as:
-  - what you expected to happen
-  - what actually happened
-  - steps to reproduce the problem
-  - relevant logs, screenshots, or configuration details
+- Use GitHub Issues for bugs, feature requests, and usage questions.
+- Search existing issues before opening a new one to avoid duplicates.
+- Include concrete details: expected behavior, actual behavior, reproduction steps, relevant logs, screenshots, and environment details.
+
+## What not to do
+
+- Do not open duplicate issues for the same problem.
+- Do not use GitHub Issues to ask for private debugging help outside the project.
+- Do not report security issues in public discussions.
 
 ## Reporting issues
 
-Open a new issue with a clear title and a concise description. For bug reports, please include reproduction steps and any environment details that may be relevant.
+Open a new issue with a concise title and a specific description. Weak, vague, or incomplete reports will be closed or requested for more detail.
 
 ## Security issues
 
-Please do not disclose security vulnerabilities in public issues. Follow the guidance in `SECURITY.md` instead.
+Security vulnerabilities must not be disclosed in public issues. Follow the reporting process in `SECURITY.md`.
 
-## Response expectations
+## Support expectations
 
-Support is provided on a best-effort basis by the maintainer and contributors. We appreciate your patience and will do our best to respond in a timely manner.
+Support is best-effort and limited to project resources. We are not a commercial support desk.
