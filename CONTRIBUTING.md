@@ -1,55 +1,69 @@
+# Contributing to JARVIS
 
-To contribute to this GitHub project, you can follow these steps:
+Thanks for taking the time to improve JARVIS.
 
-1. Fork the repository you want to contribute to by clicking the "Fork" button on the project page.
+## Ways to contribute
 
-2. Clone the repository to your local machine and enter the newly created repo using the following commands:
+You can contribute by:
 
-```
-git clone https://github.com/YOUR-GITHUB-USERNAME/JARVIS
+- fixing bugs
+- improving documentation
+- adding features or examples
+- improving tests and reliability
+
+## Development workflow
+
+1. Fork the repository.
+2. Clone your fork locally:
+
+```bash
+git clone https://github.com/YOUR-GITHUB-USERNAME/JARVIS.git
 cd JARVIS
 ```
-3. Create a new branch for your changes using the following command:
 
-```
-git checkout -b "branch-name"
-```
-4. Make your changes to the code or documentation.
+3. Create a feature branch:
 
-5. Add the changes to the staging area using the following command:
-```
-git add . 
+```bash
+git checkout -b feature/your-change
 ```
 
-6. Commit the changes with a meaningful commit message using the following command:
-```
-git commit -m "your commit message"
-```
-7. Push the changes to your forked repository using the following command:
-```
-git push origin branch-name
-```
-8. Go to the GitHub website and navigate to your forked repository.
+4. Make your changes.
+5. Validate your work locally when possible.
+6. Stage the changes:
 
-9. Click the "New pull request" button.
-
-10. Select the branch you just pushed to and the branch you want to merge into on the original repository.
-
-11. Add a description of your changes and click the "Create pull request" button.
-
-12. Wait for the project maintainer to review your changes and provide feedback.
-
-13. Make any necessary changes based on feedback and repeat steps 5-12 until your changes are accepted and merged into the main project.
-
-14. Once your changes are merged, you can update your forked repository and local copy of the repository with the following commands:
-
+```bash
+git add .
 ```
-git fetch upstream
-git checkout main
-git merge upstream/main
+
+7. Commit with a clear message:
+
+```bash
+git commit -m "Describe your change"
 ```
-Finally, delete the branch you created with the following command:
+
+8. Push the branch to your fork:
+
+```bash
+git push origin feature/your-change
 ```
-git branch -d branch-name
-```
-That's it you made it 🐣⭐⭐
+
+9. Open a pull request against the main repository.
+10. Address review feedback and update the PR as needed.
+
+## Pull request checklist
+
+Before submitting a PR, please make sure:
+
+- the change is focused and scoped
+- the code is readable and well-commented where needed
+- docs are updated if behavior or setup changed
+- tests or validation steps are included when relevant
+- commit messages are clear and specific
+
+## Code of conduct
+
+Please be respectful and constructive when discussing ideas, bugs, or proposed changes.
+
+## Thank you
+
+Contributions help improve the project for everyone. We appreciate your time and effort.

@@ -1,25 +1,25 @@
-# TODO: The maintainer of this repo has not yet edited this file
-
-**REPO OWNER**: Do you want Customer Service & Support (CSS) support for this product/project?
-
-- **No CSS support:** Fill out this template with information about how to file issues and get help.
-- **Yes CSS support:** Fill out an intake form at [aka.ms/onboardsupport](https://aka.ms/onboardsupport). CSS will work with/help you to determine next steps.
-- **Not sure?** Fill out an intake as though the answer were "Yes". CSS will help you decide.
-
-*Then remove this first heading from this SUPPORT.MD file before publishing your repo.*
-
 # Support
 
-## How to file issues and get help  
+If you need help with JARVIS, please use the project resources below.
 
-This project uses GitHub Issues to track bugs and feature requests. Please search the existing 
-issues before filing new issues to avoid duplicates.  For new issues, file your bug or 
-feature request as a new Issue.
+## How to get help
 
-For help and questions about using this project, please **REPO MAINTAINER: INSERT INSTRUCTIONS HERE 
-FOR HOW TO ENGAGE REPO OWNERS OR COMMUNITY FOR HELP. COULD BE A STACK OVERFLOW TAG OR OTHER
-CHANNEL. WHERE WILL YOU HELP PEOPLE?**.
+- For bugs, feature requests, or usage questions, open a GitHub issue in this repository.
+- Before creating a new issue, search the existing issues to avoid duplicates.
+- Include as much detail as possible, such as:
+  - what you expected to happen
+  - what actually happened
+  - steps to reproduce the problem
+  - relevant logs, screenshots, or configuration details
 
-## Microsoft Support Policy  
+## Reporting issues
 
-Support for this **PROJECT or PRODUCT** is limited to the resources listed above.
+Open a new issue with a clear title and a concise description. For bug reports, please include reproduction steps and any environment details that may be relevant.
+
+## Security issues
+
+Please do not disclose security vulnerabilities in public issues. Follow the guidance in `SECURITY.md` instead.
+
+## Response expectations
+
+Support is provided on a best-effort basis by the maintainer and contributors. We appreciate your patience and will do our best to respond in a timely manner.
